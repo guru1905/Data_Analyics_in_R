@@ -2,7 +2,7 @@
 SUPPORT VECTOR MACHINE(SVM)
 ###################################################################################
 ###################################################
-#import dataset
+#import datasetS
 dataset=read.csv('Customers.csv')
 View(dataset)
 
