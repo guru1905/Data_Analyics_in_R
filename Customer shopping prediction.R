@@ -5,14 +5,14 @@ SUPPORT VECTOR MACHINE(SVM)
 #import datasetS
 dataset=read.csv('Customers.csv')
 View(dataset)
-
+###################################
 
 library(caTools)
 library(ggplot2)
 library(GGally)
 library(e1071)
 
-#data split
+#data SPLIT
 split=sample.split(dataset$Age,SplitRatio=0.75)
 
 #training and testing
